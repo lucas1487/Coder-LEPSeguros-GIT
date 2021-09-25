@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="img/logo.png" />
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html"><img class="logo__img" src="img/logo.png" alt="Logo"></a>
+            </div>
+            <nav class="nav">
+                
+                <ul class="nav__menu" >
+
+                    <li class="nav__menu--link"> 
+                        <a class="nav__menu--enlace" href="index.html" >Inicio</a>
+                    </li>
+                    <li class="nav__menu--link">
+                        <a class="nav__menu--enlace" href="productos.html">Productos</a>
+                    
+                    </li>
+                    <li class="nav__menu--link">
+                        <a class="nav__menu--enlace" href="cotizacion.html">Pedi tu Cotizacion</a>
+                    </li>
+                    <li class="nav__menu--link">
+                        <a class="nav__menu--enlace" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav__menu--link">
+                        <a class="nav__menu--enlace" href="contacto.html">Contacto</a>
+                    </li>
+                            
+                    </ul>
+                
+            </nav>
+        </div>    
+    </header>
+    
+    <main>
+            <form class="formulario" action="" method="GET">
+                <label class="formulario__titulo" for="nombre">Nombre: </label>
+                <input class="formulario__titulo--campo" type="text" id="nombre">
+                <label class="formulario__titulo" for="apellido">Apellido: </label>
+                <input class="formulario__titulo--campo" type="text" id="apellido">
+                <label class="formulario__titulo" for="email">E-Mail: </label>
+                <input class="formulario__titulo--campo" type="email" id="email">
+                <select class="formulario__select" name="relacion" id="" > 
+                    <option selected value="0"> Elige una opción </option>
+                    <option value="asegurado">Asegurado</option>
+                    <option value="tercero">Tercero</option>
+           
+                    
+                </select>
+                
+                <textarea class="formulario__texto" name="Mensaje" rows="10" cols="30">Deje su consulta aqui...
+                </textarea>
+                <div class="formulario__titulo--newsletter">
+                <label   for="acepta">¿Desea recibir el Newsletter?</label>
+                <input  type="checkbox" id="acepta" value="1">
+                </div>
+                <input class="formulario__boton" type="reset">
+                <input  class="formulario__boton"type="submit">
+
+            </form><br><br><br>    
+    </main>            
+      
+    
+    
+    <footer class="footer">
+        <p class="footer__parrafo">Nuestras Redes Sociales</p>
+        <a class="footer__redes" href="">Facebook</a>
+        <a class="footer__redes" href="">Instagram</a>
+        <a class="footer__redes" href="">Twiter</a><br>
+        
+        <div class="footer__copyright">Copyright&copy; 2021 - Página creada por Lucas Penel - Todos los derechos reservados</div>
+    </footer>
+</body>
+</html>

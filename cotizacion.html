@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Cotizacion</title>  
+    <link rel="shortcut icon" href="img/logo.png" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html"><img class="logo__img" src="img/logo.png" alt="Logo"></a>
+            </div>
+            <nav class="nav">
+                
+                <ul class="nav__menu" >
+
+                    <li class="nav__menu--link"> 
+                        <a class="nav__menu--enlace" href="index.html" >Inicio</a>
+                    </li>
+                    <li class="nav__menu--link">
+                        <a class="nav__menu--enlace" href="productos.html">Productos</a>
+                    
+                    </li>
+                    <li class="nav__menu--link">
+                        <a class="nav__menu--enlace" href="cotizacion.html">Pedi tu Cotizacion</a>
+                    </li>
+                    <li class="nav__menu--link">
+                        <a class="nav__menu--enlace" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav__menu--link">
+                        <a class="nav__menu--enlace" href="contacto.html">Contacto</a>
+                    </li>
+                            
+                    </ul>
+                
+            </nav>
+        </div>    
+    </header>
+
+    <form class="formulario" action="" method="GET">
+                <h1 class="formulario__h1">Ingresá los datos de tu vehículo</h1>
+                                    
+                <label class="formulario__titulo" for="nombreApellido"></label>
+                <input class="formulario__titulo--campo" type="text" placeholder="Nombre y Apellido" id="nombreApellido">
+
+                <label class="formulario__titulo" for="marca"></label>
+                <input class="formulario__titulo--campo" type="text" placeholder="Marca" id="marca">
+               
+                <label class="formulario__titulo" for="modelo"></label>
+                <input class="formulario__titulo--campo" type="text" placeholder="Modelo" id="modelo">
+
+                <label class="formulario__titulo" for="version"> </label>
+                <input class="formulario__titulo--campo" type="text" placeholder="Version" id="version">
+                <div class="formulario__radio">
+                    <p class="formulario__radio--gnc">
+                    ¿Posee GNC?
+                    <input type="radio" name="gnc" id="gnc" value="1">Si
+                    <input type="radio" name="gnc" id="gnc" value="1">No 
+                    </p>
+
+                    <p class="formulario__radio--0km">
+                        ¿Es 0KM?
+                        <input type="radio" name="0km" id="0km" value="1">Si
+                        <input type="radio" name="0km" id="0km" value="1">No
+                    </p>
+                </div>
+                <label class="formulario__titulo" for="año"></label>
+                <input class="formulario__titulo--campo" type="text" placeholder="Año" id="año">
+
+                <label class="formulario__titulo" for="codigoPostal"></label>
+                <input class="formulario__titulo--campo" type="text" placeholder="Codigo Postal" id="codigoPostal">
+
+                <label class="formulario__titulo" for="email"></label>
+                <input class="formulario__titulo--campo" type="email" placeholder="E-Mail" id="email">
+                <input class="formulario__boton" type="submit" value="Solicitar Cotizacion">
+                
+    </form>
+    <footer class="footer">
+        <p class="footer__parrafo">Nuestras Redes Sociales</p>
+        <a class="footer__redes" href="">Facebook</a>
+        <a class="footer__redes" href="">Instagram</a>
+        <a class="footer__redes" href="">Twiter</a><br>
+        
+        <div class="footer__copyright">Copyright&copy; 2021 - Página creada por Lucas Penel - Todos los derechos reservados</div>
+    </footer>
+</body>
+</html>

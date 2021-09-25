@@ -1,0 +1,474 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+/* Aplicamos estilos en INDEX*/
+/*HEADER*/
+
+
+.header {
+             
+    
+    width:100%;
+    height: 10rem;
+    
+}
+
+.menu{
+    width: 90%;
+    
+    height: 10rem;
+    margin: auto;
+}
+
+.logo{
+    width:10%;
+    height: 10rem;
+   
+    float: left;
+    
+   
+ }
+.logo__img {
+    width: 10rem;
+    
+}
+
+
+.nav{
+    width: 90%;
+    height: 10rem;    
+    text-align: right;
+    padding-top: 3.5rem;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.nav__menu--link
+{
+    
+  display: inline;
+    
+    
+}
+
+.nav__menu--enlace {
+    
+    color:rgb(2, 29, 83);
+    text-decoration: none;    
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1rem;
+
+}
+
+
+.nav__menu--enlace:hover {
+    color: RoyalBlue;
+    transition: all 1s ease; 
+  }
+
+  
+@media (max-width: 700px)
+  {
+    .header {
+             
+    
+        width:100%;
+        height: 16rem;
+        
+    }
+    
+    .menu{
+        width: 100%;        
+        height: 16rem;
+        margin: auto;
+    }
+
+      .logo__img {
+          display: none;
+      }    
+      
+        .nav{
+           
+            padding-top: 0rem;
+            justify-content: center;            
+            box-sizing: border-box;             
+            text-align: center;
+            
+        }
+      .nav__menu--link{
+    
+            display: block;
+            
+            padding: 1rem;
+           
+          
+    
+    }
+
+      
+     .nav__menu--enlace {
+        
+        color:rgb(2, 29, 83);
+        text-decoration: none;    
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: bold;
+        
+          
+      }
+      .nav__menu--link:hover{
+          background-color:lightblue;
+      }
+}
+/*SECCION PORTADA*/
+.portada--foto{
+    width: 100%;
+    height: 50rem;
+}
+.portada{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+.portada--texto{
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    font-size: 1.5rem;
+    color: rgb(2, 29, 83);
+    font-family: 'Patrick Hand', cursive;
+}
+
+.portada--boton{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-100%, -10%);
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    color:darkblue;
+    box-shadow: 2px 4px rgb(2, 29, 83);
+    
+
+}
+
+.portada--boton:hover{
+    background-color: rgb(2, 29, 83);
+    color: wheat;
+    transition: all 1s ease;
+}
+
+@media (max-width: 700px) {
+   
+    
+    .portada--texto{
+        position: absolute;
+        top: 3rem;
+        left: 0.2rem;
+        right: 0.2rem;
+        font-size: 1rem;
+        color: rgb(2, 29, 83);
+        font-family: 'Patrick Hand', cursive;
+        
+    }
+    .portada--boton{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-100%, -10%);
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 0.5rem;
+        border: 2px solid white;
+        border-radius: 5px;
+        color:darkblue;
+        box-shadow: 2px 4px rgb(2, 29, 83);
+        
+
+    }
+
+    .portada--boton:hover{
+        background-color: rgb(2, 29, 83);
+        color: wheat;
+        transition: all 3s ease-in-out;
+    }
+    }
+
+/*MAIN*/
+
+.titulo--servicios{
+    justify-content: center;
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    animation: flash; 
+    animation-duration: 4s; 
+   
+}
+
+
+.servicios{
+    display: flex;   
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+   
+    
+   
+}
+
+.servicios--articulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    padding: 1px;
+    margin: 2rem; 
+}
+.servicios--titulo{
+    color:rgb(2, 29, 83);  
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+   
+.servicios--imagen{
+    width: 100%;
+    opacity: initial;
+    transition: all 3s;
+    filter: opacity(80%);  
+    
+}
+.servicios--imagen:hover{
+     
+    transform: scale(0.5,0.5);
+    filter: opacity(100%); 
+}
+.servicios--link{
+    color:black;   
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    transition: all 2s;
+}
+.servicios--link:hover{
+    
+    font-size: 1.6rem;
+    color: rgb(2, 29, 83);
+}
+
+
+
+
+/*FOOTER*/
+.footer{
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+.footer__parrafo{
+    color: white;
+    background-color: rgb(2, 29, 83);
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+    
+    
+}
+.footer__redes{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 1rem; 
+    transition: all 2s;
+    
+   
+   
+}
+.footer__redes:hover{
+    font-size: 2rem;
+    color:rgb(2, 29, 83);
+}
+.footer__copyright{
+    color: grey;
+    
+    font-size: 1rem;
+    padding: 1rem;
+    
+}
+
+
+
+
+
+/* PRODUCTOS.HTML*/
+.container {
+    display:grid;
+    width: 75%;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    background: radial-gradient(circle,rgb(2, 29, 83,0.7),#fff);
+    
+    grid-template-areas: "titulo titulo titulo"
+    "subtitulo1 subtitulo2 subtitulo3" 
+    "producto1 cobertura1 detalle1"
+    "producto2 cobertura2 detalle2"
+    "producto3 cobertura3 detalle3";
+    
+    
+    
+  }
+  .productos--h1 { grid-area:titulo; color:white;font-size: 3rem; width: 100%; background-color: rgb(2, 29, 83); text-align: center;animation: backInDown; 
+    animation-duration: 2s; }
+  .productos--titulo1 { grid-area:subtitulo1; font-size: 1.5rem; padding: 1.5rem; }
+  .productos--titulo2 { grid-area:subtitulo2;  font-size: 1.5rem; padding: 1.5rem;}
+  .productos--titulo3 { grid-area:subtitulo3; font-size: 1.5rem; padding: 1.5rem; }  
+
+  .productos1{ grid-area:producto1; }
+  .productos--coberturas1{ grid-area:cobertura1; }
+  .productos__coberturas-detalle1 { grid-area:detalle1; padding-bottom: 2rem;}
+
+  
+  .productos2{ grid-area:producto2; }
+  .productos--coberturas2{ grid-area:cobertura2; } 
+  .productos__coberturas-detalle2 { grid-area:detalle3; padding-bottom: 2rem;}
+
+
+  
+  .productos3{ grid-area:producto3; }  
+  .productos--coberturas3{ grid-area:cobertura3; }  
+  .productos__coberturas-detalle3 { grid-area:detalle3; padding-bottom: 2rem;}
+
+
+
+
+  /* contacto.HTML y cotizacion.HTML*/
+.formulario{
+	width:30rem;
+	padding:2rem;
+	border-radius:1rem;
+	margin:auto;
+	background-image: linear-gradient(white,rgb(2, 29, 83,0.75));
+    text-align: center;
+}
+.formulario__h1{
+    color:rgb(2, 29, 83);
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    animation: fadeInTopLeft;
+    animation-duration: 2s;
+
+
+}
+.formulario__titulo{
+	width:10rem;
+	font-weight:bold;
+	display:inline-block;
+    font-size: 1.5rem;
+     
+    
+}
+
+.formulario__titulo--campo 
+
+
+{
+	width:20rem;
+	padding:1px;
+	border:1px solid #535353;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	display:inline-block;
+    margin: 0.5rem;
+    
+    
+}
+
+
+.formulario__boton{
+	width:100%;
+	padding:8px 16px;
+	margin-top:5px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+
+
+.formulario__boton:hover{
+	color: gray;
+}
+
+
+.formulario__texto{
+	width:100%;
+	height:100px;
+	border:1px solid #535353;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+.formulario__titulo--newsletter{
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 1rem;
+	font-weight:bold;
+	display:inline-block;
+    font-size: 1.5rem;
+}
+.formulario__radio--gnc,.formulario__radio--0km{
+    font-size: 1.3rem;
+    padding: 5px;
+
+}
+
+.formulario__radio{
+    font-size: 1.5rem;
+    width: 30rem;
+    display: flex;
+    
+}
+.formulario__select{
+    border:1px solid #535353;
+    border-radius:3px;  
+}
+/*Nosotros*/
+.parrafo{
+    color:rgb(5, 29, 238);
+    font-size: 1.2rem;
+    text-align: justify;
+    font-family: 'Patrick Hand', cursive;
+    padding: 1rem;
+    background: linear-gradient(rgb(2, 29, 83,0.8),white,rgb(2, 29, 83,0.8));
+    
+    
+}
+
