@@ -12,29 +12,7 @@ html{
 /*HEADER*/
 
 
-.header {
-             
-    
-    width:100%;
-    height: 10rem;
-    
-}
 
-.menu{
-    width: 90%;
-    
-    height: 10rem;
-    margin: auto;
-}
-
-.logo{
-    width:10%;
-    height: 10rem;
-   
-    float: left;
-    
-   
- }
 .logo__img {
     width: 10rem;
     
@@ -52,13 +30,7 @@ html{
     
 }
 
-.nav__menu--link
-{
-    
-  display: inline;
-    
-    
-}
+
 
 .nav__menu--enlace {
     
@@ -76,61 +48,23 @@ html{
     color: RoyalBlue;
     transition: all 1s ease; 
   }
-
-  
-@media (max-width: 700px)
+  @media (max-width: 700px)
   {
-    .header {
-             
-    
-        width:100%;
-        height: 16rem;
-        
-    }
-    
-    .menu{
-        width: 100%;        
-        height: 16rem;
-        margin: auto;
-    }
+   
 
-      .logo__img {
+      .logo__img{
           display: none;
-      }    
+      }
       
         .nav{
            
-            padding-top: 0rem;
-            justify-content: center;            
-            box-sizing: border-box;             
-            text-align: center;
+            
+            text-align: center;         
+            display:inline-block;         
+            justify-content:right;
             
         }
-      .nav__menu--link{
-    
-            display: block;
-            
-            padding: 1rem;
-           
-          
-    
     }
-
-      
-     .nav__menu--enlace {
-        
-        color:rgb(2, 29, 83);
-        text-decoration: none;    
-        font-size: 1rem;
-        font-style: italic;
-        font-weight: bold;
-        
-          
-      }
-      .nav__menu--link:hover{
-          background-color:lightblue;
-      }
-}
 /*SECCION PORTADA*/
 .portada--foto{
     width: 100%;
@@ -221,36 +155,10 @@ html{
     animation-duration: 4s; 
    
 }
-
-
-.servicios{
-    display: flex;   
-    justify-content: center;
-    width: 100%;
+main{
+    width: 80rem;
     margin: auto;
-    flex-wrap: wrap;
-   
-    
-   
-}
-
-.servicios--articulo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 20%;
-    padding: 1px;
-    margin: 2rem; 
-}
-.servicios--titulo{
-    color:rgb(2, 29, 83);  
-    text-align: center;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1.5rem;
-    
-}
-
-   
+}  
 .servicios--imagen{
     width: 100%;
     opacity: initial;
@@ -325,7 +233,7 @@ html{
 
 
 /* PRODUCTOS.HTML*/
-.container {
+.container1 {
     display:grid;
     width: 75%;
     margin: auto;

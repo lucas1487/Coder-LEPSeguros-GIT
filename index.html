@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="estilos/estilo.css">
+    
     <title>LEP Seguros</title>
     
     <link rel="shortcut icon" href="img/logo.png" />
@@ -19,71 +19,108 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"> 
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilo.css">
     
 </head>
 <body>
     <header class="header">
-        <div class="menu">
-            <div class="logo">
-                <a href="index.html"><img class="logo__img" src="img/logo.png" alt="Logo"></a>
-            </div>
-            <nav class="nav">
-                
-                <ul class="nav__menu" >
-
-                    <li class="nav__menu--link"> 
-                        <a class="nav__menu--enlace" href="index.html" >Inicio</a>
-                    </li>
-                    <li class="nav__menu--link">
-                        <a class="nav__menu--enlace" href="productos.html">Productos</a>
-                    
-                    </li>
-                    <li class="nav__menu--link">
-                        <a class="nav__menu--enlace" href="cotizacion.html">Pedi tu Cotizacion</a>
-                    </li>
-                    <li class="nav__menu--link">
-                        <a class="nav__menu--enlace" href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav__menu--link">
-                        <a class="nav__menu--enlace" href="contacto.html">Contacto</a>
-                    </li>
-                            
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid ">
+              <a href="index.html"><img class="logo__img" src="/img/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav ">
+                  <li class="nav-item  ">
+                    <a class=" nav__menu--enlace " aria-current="page" href="/index.html">Inicio</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="dropdown-toggle  nav__menu--enlace" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item h5 text-primary fst-italic" href="productos.html">Seguro Automotor</a></li>
+                      <li><a class="dropdown-item h5 text-primary" href="productos.html">Seguro Motocicleta</a></li>
+                      
+                      <li><a class="dropdown-item h5 text-primary" href="productos.html">Seguro Bicicleta</a></li>
                     </ul>
-                
-            </nav>
-        </div>    
-    </header>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav__menu--enlace" href="cotizacion.html">Pedi tu cotizacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav__menu--enlace" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav__menu--enlace" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+          </nav>
+      </header>
     <section class="portada">
         <img class="portada--foto" src="img/Seguros-CAM3.jpg" alt="">
         <p class="portada--texto">LEP Seguros es una empresa dedicada al negocio de seguros, especialistas en análisis de riesgos. Nuestras oficinas están radicadas en la zona Oeste de la Provincia de Buenos Aires. Brindamos asesoramiento a nuestros clientes para que siempre puedan tomar la decisión más afín a sus intereses. Ponemos a su alcance una gama de respuestas, con agilidad y flexibilidad, buscando adaptarnos a sus necesidades. La actitud y experiencia de nuestros profesionales nos ha permitido un crecimiento sostenido a lo largo de nuestra trayectoria, de más de 25 años.</p> 
         <a class="portada--boton" href="cotizacion.html">Solicita tu cotizacion AQUI!</a>
      
     </section>
-    <main>
-    <h1 class="titulo--servicios">Nuestros Servicios</h1>
-       <div class="servicios">
-           
-           <article class="servicios--articulo">
-            <h3 class="servicios--titulo">Seguro Automotor</h3>
-            <a href="productos.html"><img class="servicios--imagen" src="img/auto.jpg" alt=""></a>
-            <a class="servicios--link" href="productos.html">Ver Servicio</a>
-           </article>
+    <main > 
+    
+                <div class="container">
+                <div class="row">
+                <h1 class="titulo--servicios">Nuestros Servicios</h1>
+                <div class="col-4">
+                    <div class="card" style="width: 25rem;">
+                    <h5 class="card-title text-center mt-4">Seguro Automotor</h5>
+                    <img src="/img/auto.png" class="card-img-top servicios--imagen " alt="...">
+                    <div class="card-body ">
+                        
+                        
+                        <a href="productos.html" class="btn btn-primary d-flex justify-content-center ">Ver servicio</a>
+                    </div>
+                    </div>
+                </div>
 
-           <article class="servicios--articulo">
-            <h3 class="servicios--titulo">Seguro Motocicleta</h3>
-            <a href="productos.html"><img class="servicios--imagen" src="img/moto.png" alt=""></a>
-            <a class="servicios--link" href="productos.html">Ver Servicio</a>
-           </article>
+                <div class="col-4">
+                    <div class="card" style="width: 25rem;">
+                    <h5 class="card-title text-center mt-4">Seguro Motocicleta</h5>
+                    <img src="/img/moto.png" class="card-img-top servicios--imagen " alt="...">
+                    <div class="card-body ">
+                        
+                        
+                        <a href="productos.html" class="btn btn-primary d-flex justify-content-center ">Ver servicio</a>
+                    </div>
+                    </div>
+                </div>
 
-           <article class="servicios--articulo">
-            <h3 class="servicios--titulo">Seguro para Bicicleta</h3>
-            <a href="productos.html"><img class="servicios--imagen" src="img/bici.png" alt=""></a>
-            <a class="servicios--link" href="productos.html">Ver Servicio</a>
-           </article>
+                <div class="col-4">
+                    <div class="card" style="width: 25rem;">
+                    <h5 class="card-title text-center mt-4">Seguro Bicicleta</h5>
+                    <img src="/img/bici.png" class="card-img-top servicios--imagen " alt="...">
+                    <div class="card-body ">
+                        
+                        
+                        <a href="productos.html" class="btn btn-primary d-flex justify-content-center ">Ver servicio</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
 
-       </div>
 
-    </main>
+                </div>
+                
+                
+                
+        </main>
+
+
     <footer class="footer">
         <p class="footer__parrafo">Nuestras Redes Sociales</p>
         <a class="footer__redes" href="">Facebook</a>
@@ -92,5 +129,6 @@
         
         <div class="footer__copyright">Copyright&copy; 2021 - Página creada por Lucas Penel - Todos los derechos reservados</div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
