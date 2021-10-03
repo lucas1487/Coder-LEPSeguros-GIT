@@ -19,16 +19,6 @@ html{
 }
 
 
-.nav{
-    width: 90%;
-    height: 10rem;    
-    text-align: right;
-    padding-top: 3.5rem;
-    box-sizing: border-box; 
-    display: flex;
-    justify-content: flex-end;
-    
-}
 
 
 
@@ -36,10 +26,11 @@ html{
     
     color:rgb(2, 29, 83);
     text-decoration: none;    
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
     font-weight: bold;
     padding: 1rem;
+    
 
 }
 
@@ -55,16 +46,7 @@ html{
       .logo__img{
           display: none;
       }
-      
-        .nav{
-           
-            
-            text-align: center;         
-            display:inline-block;         
-            justify-content:right;
-            
-        }
-    }
+ }
 /*SECCION PORTADA*/
 .portada--foto{
     width: 100%;
@@ -156,7 +138,7 @@ html{
    
 }
 main{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }  
 .servicios--imagen{
@@ -171,20 +153,7 @@ main{
     transform: scale(0.5,0.5);
     filter: opacity(100%); 
 }
-.servicios--link{
-    color:black;   
-    text-align: center;
-    text-decoration: none;
-    font-weight:bold;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1.2rem;
-    transition: all 2s;
-}
-.servicios--link:hover{
-    
-    font-size: 1.6rem;
-    color: rgb(2, 29, 83);
-}
+
 
 
 
