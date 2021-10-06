@@ -174,21 +174,7 @@ main{
     
     
 }
-.footer__redes{
-    color: dodgerblue;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-style: italic;
-    padding: 1rem; 
-    transition: all 2s;
-    
-   
-   
-}
-.footer__redes:hover{
-    font-size: 2rem;
-    color:rgb(2, 29, 83);
-}
+
 .footer__copyright{
     color: grey;
     
