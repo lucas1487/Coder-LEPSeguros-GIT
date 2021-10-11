@@ -1,0 +1,213 @@
+@import "_colores";
+@import "_tipografia";
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+ 
+
+.automotor {
+      
+    width: 75%;
+    height: 50vh;
+        
+    margin: auto;
+    background: url('../img/automotor.jpg') fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-display: flex;
+    display: flex;
+        
+    align-items: center;
+    justify-content: center;
+      
+    h1{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font: $titulo-font;
+        font-size: $tamanotitulo;
+        color: $colortitulo;
+        
+        }
+    h4{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: $tamanosubtitulo;
+        color:orangered;
+        
+        }
+    p{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color:$colorprincipal;
+        }
+    .boton{
+        display: flex;
+        justify-content: center;
+           
+        }                             
+}
+
+
+.titulo{
+    width: 90%;
+    margin: auto;
+    
+    h2 {
+        
+        background-color: $colorprincipal;
+        color:$colortitulo;
+        text-align: center;
+    
+    
+    }
+   
+}
+
+
+
+.motocicleta {
+      
+    width: 75%;
+    height: 50vh;
+        
+    margin: auto;
+    background: url('../img/motocicleta.jpg') fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-display: flex;
+    display: flex;
+        
+    align-items: center;
+    justify-content: center;
+      
+    h1{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font: $titulo-font;
+        font-size: $tamanotitulo;
+        color: $colortitulo;
+        
+        
+        }
+    h4{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: $tamanosubtitulo;
+        color:orangered;
+        
+        }
+    p{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color:$colorprincipal;
+        }
+    .boton{
+        display: flex;
+        justify-content: center;
+           
+        }                             
+}
+
+
+.titulo{
+    width: 90%;
+    margin: auto;
+    
+    h2 {
+        
+        background-color: $colorprincipal;
+        color:$colortitulo;
+        text-align: center;
+    
+    
+    }
+   
+}
+ 
+
+
+
+.bicicleta {
+      
+    width: 75%;
+    height: 50vh;
+        
+    margin: auto;
+    background: url('../img/bicicleta.jpg') fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-display: flex;
+    display: flex;
+        
+    align-items: center;
+    justify-content: center;
+      
+    h1{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font: $titulo-font;
+        font-size: $tamanotitulo;
+        color: $colortitulo;
+        
+        }
+    h4{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: $tamanosubtitulo;
+        color:orangered;
+        
+        }
+    p{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color:$colorprincipal;
+        }
+    .boton{
+        display: flex;
+        justify-content: center;
+           
+        }                             
+}
+
+
+.titulo{
+    width: 90%;
+    margin: auto;
+    
+    h2 {
+        
+        background-color: $colorprincipal;
+        color:$colortitulo;
+        text-align: center;
+    
+    
+    }
+   
+}
+ 
+ 
+  

@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.automotor {
+  width: 75%;
+  height: 50vh;
+  margin: auto;
+  background: url("../img/automotor.jpg") fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .automotor h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font: normal 24px/1.5 "Open Sans", sans-serif;
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 0.9); }
+  .automotor h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: orangered; }
+  .automotor p {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #021d53; }
+  .automotor .boton {
+    display: flex;
+    justify-content: center; }
+
+.titulo {
+  width: 90%;
+  margin: auto; }
+  .titulo h2 {
+    background-color: #021d53;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center; }
+
+.motocicleta {
+  width: 75%;
+  height: 50vh;
+  margin: auto;
+  background: url("../img/motocicleta.jpg") fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .motocicleta h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font: normal 24px/1.5 "Open Sans", sans-serif;
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 0.9); }
+  .motocicleta h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: orangered; }
+  .motocicleta p {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #021d53; }
+  .motocicleta .boton {
+    display: flex;
+    justify-content: center; }
+
+.titulo {
+  width: 90%;
+  margin: auto; }
+  .titulo h2 {
+    background-color: #021d53;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center; }
+
+.bicicleta {
+  width: 75%;
+  height: 50vh;
+  margin: auto;
+  background: url("../img/bicicleta.jpg") fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .bicicleta h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font: normal 24px/1.5 "Open Sans", sans-serif;
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 0.9); }
+  .bicicleta h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: orangered; }
+  .bicicleta p {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #021d53; }
+  .bicicleta .boton {
+    display: flex;
+    justify-content: center; }
+
+.titulo {
+  width: 90%;
+  margin: auto; }
+  .titulo h2 {
+    background-color: #021d53;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center; }
