@@ -234,7 +234,7 @@ main{
 	padding:2rem;
 	border-radius:1rem;
 	margin:auto;
-	background-image: linear-gradient(white,rgb(2, 29, 83,0.75));
+	
     text-align: center;
 }
 .formulario__h1{
@@ -278,13 +278,15 @@ main{
 	border-radius:5px;
 	display:block;
 	color:#fff;
-	background-color:#000;
+	background-color:rgb(2, 29, 83);
 } 
 
 
 
 .formulario__boton:hover{
 	color: gray;
+    background-color:rgb(2, 29, 83, 0.9);
+    border:0.3px solid #fff;
 }
 
 
@@ -309,6 +311,8 @@ main{
 .formulario__radio--gnc,.formulario__radio--0km{
     font-size: 1.3rem;
     padding: 5px;
+    color: rgb(2, 29, 83);
+    
 
 }
 
@@ -322,14 +326,23 @@ main{
     border:1px solid #535353;
     border-radius:3px;  
 }
+.contacto, .cotizacion{
+    width: 80%;
+    background: url("../img/FOTO2.jpg") no-repeat fixed center;
+}
 /*Nosotros*/
 .parrafo{
-    color:rgb(5, 29, 238);
+    color: #fff;
     font-size: 1.2rem;
     text-align: justify;
     font-family: 'Patrick Hand', cursive;
     padding: 1rem;
-    background: linear-gradient(rgb(2, 29, 83,0.8),white,rgb(2, 29, 83,0.8));
-    
+     
     
 }
+.nosotros{
+    width: 100%;
+    background: url("../img/video.gif");
+    background-size: cover;
+}
+
