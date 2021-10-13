@@ -7,10 +7,10 @@ html {
   font-size: 62.5%; }
 
 .automotor {
+  background: url("../img/automotor.jpg") fixed;
   width: 75%;
   height: 50vh;
   margin: auto;
-  background: url("../img/automotor.jpg") fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,37 +24,29 @@ html {
     justify-content: center;
     font-weight: 700;
     font: normal 24px/1.5 "Open Sans", sans-serif;
-    font-size: 5rem;
+    font-size: 5.7rem;
     color: rgba(255, 255, 255, 0.9); }
   .automotor h4 {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: orangered; }
   .automotor p {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #021d53; }
   .automotor .boton {
     display: flex;
     justify-content: center; }
 
-.titulo {
-  width: 90%;
-  margin: auto; }
-  .titulo h2 {
-    background-color: #021d53;
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center; }
-
 .motocicleta {
+  background: url("../img/motocicleta.jpg") fixed;
   width: 75%;
   height: 50vh;
   margin: auto;
-  background: url("../img/motocicleta.jpg") fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,37 +60,29 @@ html {
     justify-content: center;
     font-weight: 700;
     font: normal 24px/1.5 "Open Sans", sans-serif;
-    font-size: 5rem;
+    font-size: 5.7rem;
     color: rgba(255, 255, 255, 0.9); }
   .motocicleta h4 {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: orangered; }
   .motocicleta p {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #021d53; }
   .motocicleta .boton {
     display: flex;
     justify-content: center; }
 
-.titulo {
-  width: 90%;
-  margin: auto; }
-  .titulo h2 {
-    background-color: #021d53;
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center; }
-
 .bicicleta {
+  background: url("../img/bicicleta.jpg") fixed;
   width: 75%;
   height: 50vh;
   margin: auto;
-  background: url("../img/bicicleta.jpg") fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -112,19 +96,19 @@ html {
     justify-content: center;
     font-weight: 700;
     font: normal 24px/1.5 "Open Sans", sans-serif;
-    font-size: 5rem;
+    font-size: 5.7rem;
     color: rgba(255, 255, 255, 0.9); }
   .bicicleta h4 {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: orangered; }
   .bicicleta p {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #021d53; }
   .bicicleta .boton {
     display: flex;
@@ -136,4 +120,5 @@ html {
   .titulo h2 {
     background-color: #021d53;
     color: rgba(255, 255, 255, 0.9);
-    text-align: center; }
+    text-align: center;
+    font-size: 2rem; }
