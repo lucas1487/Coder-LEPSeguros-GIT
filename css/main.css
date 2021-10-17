@@ -231,7 +231,7 @@ main{
   /* contacto.HTML y cotizacion.HTML*/
 .formulario{
 	width:30rem;
-	padding:2rem;
+	padding-top:2rem;
 	border-radius:1rem;
 	margin:auto;
 	
@@ -327,8 +327,10 @@ main{
     border-radius:3px;  
 }
 .contacto, .cotizacion{
-    width: 80%;
-    background: url("../img/FOTO2.jpg") no-repeat fixed center;
+    width: 90%;
+    background: url("../img/FOTO2.jpg") no-repeat fixed ;
+    background-size: cover;
+    margin: auto;
 }
 /*Nosotros*/
 .parrafo{
