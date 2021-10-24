@@ -17,29 +17,22 @@ html{
     
 }
 
-
-
-
-
-.nav__menu--enlace {
-    
+.navbar-light .navbar-nav .nav-link.active{
+    color: orangered;
+}
+.navbar-light .navbar-nav .nav-link  {
     color:rgb(2, 29, 83);
     text-decoration: none;    
     font-size: 1.5rem;
     font-style: italic;
     font-weight: bold;
-    padding: 1rem;
-    
+    padding: 1rem;}
 
+.navbar-light .navbar-nav .nav-link:hover  {
+    color:steelblue;
+    transition: all 1s ease; 
 }
 
-
-
-
-.nav__menu--enlace:hover {
-    color: RoyalBlue;
-    transition: all 1s ease; 
-  }
   @media (max-width: 700px)
   {
    
