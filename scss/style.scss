@@ -18,7 +18,7 @@ html{
     
     background: url('../img/#{$servicio}.jpg') fixed;   
     width: 75%;
-    height: 50vh;
+    height: 75vh;
        
     margin: auto;
     
@@ -80,6 +80,62 @@ html{
        }
    
 }
-
+@media (max-width: 700px) {
+   
+    @each $servicio in automotor, motocicleta, bicicleta 
+{
+    .#{$servicio} 
+    {
+    
+    background: url('../img/#{$servicio}.jpg')center  fixed;   
+    width: 75%;
+    height: 50vh;
+       
+    margin: auto;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-display: flex;
+    display: flex;
+        
+    align-items: center;
+    justify-content: center;
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font: $titulo-font;
+        font-size:$tamanotitulo/2;
+        color: $colortitulo;
+        
+        }
+    h4{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: $tamanosubtitulo/2;
+        color:orangered;
+        
+        }
+    p{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color:$colorprincipal;
+        text-align: center;
+        }
+    .boton{
+        display: flex;
+        justify-content: center;
+           
+        }                             
+    }
+}
+    
+}
 
 

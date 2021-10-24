@@ -43,7 +43,7 @@ html{
    
 
       .logo__img{
-          display: none;
+        width: 6rem;
       }
  }
 /*SECCION PORTADA*/
@@ -131,6 +131,7 @@ html{
 .titulo--servicios{
     justify-content: center;
     display: flex;
+    margin-top: 5px 0;
     font-family: 'Indie Flower', cursive;
     animation: flash; 
     animation-duration: 4s; 
@@ -189,11 +190,20 @@ main{
 /* PRODUCTOS.HTML*/
 .container1 {
     display:grid;
-    width: 75%;
+    width: 95%;
     margin: auto;
     justify-items: center;
     align-items: center;
-    background: radial-gradient(circle,rgb(2, 29, 83,0.7),#fff);
+    background: url("../img/chica2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+        
+    
+    
+    font-weight: bold;
     
     grid-template-areas: "titulo titulo titulo"
     "subtitulo1 subtitulo2 subtitulo3" 
@@ -206,24 +216,26 @@ main{
   }
   .productos--h1 { grid-area:titulo; color:white;font-size: 3rem; width: 100%; background-color: rgb(2, 29, 83); text-align: center;animation: backInDown; 
     animation-duration: 2s; }
-  .productos--titulo1 { grid-area:subtitulo1; font-size: 1.5rem; padding: 1.5rem; }
-  .productos--titulo2 { grid-area:subtitulo2;  font-size: 1.5rem; padding: 1.5rem;}
-  .productos--titulo3 { grid-area:subtitulo3; font-size: 1.5rem; padding: 1.5rem; }  
+  .productos--titulo1 { grid-area:subtitulo1; font-size: 2rem; padding: 1.5rem; }
+  .productos--titulo2 { grid-area:subtitulo2;  font-size: 2rem; padding: 1.5rem;}
+  .productos--titulo3 { grid-area:subtitulo3; font-size: 2rem; padding: 1.5rem;}  
 
-  .productos1{ grid-area:producto1; }
+  .productos1 a{ grid-area:producto1; text-decoration: none; font-size: 1.5rem; color:rgb(2, 29, 83)}
+
   .productos--coberturas1{ grid-area:cobertura1; }
   .productos__coberturas-detalle1 { grid-area:detalle1; padding-bottom: 2rem;}
 
   
-  .productos2{ grid-area:producto2; }
+  .productos2 a { grid-area:producto2; text-decoration: none; font-size: 1.5rem; color:rgb(2, 29, 83) }
   .productos--coberturas2{ grid-area:cobertura2; } 
   .productos__coberturas-detalle2 { grid-area:detalle3; padding-bottom: 2rem;}
 
 
   
-  .productos3{ grid-area:producto3; }  
+  .productos3 a{ grid-area:producto3; text-decoration: none; font-size: 1.5rem; color:rgb(2, 29, 83) }  
   .productos--coberturas3{ grid-area:cobertura3; }  
   .productos__coberturas-detalle3 { grid-area:detalle3; padding-bottom: 2rem;}
+
 
 
 
@@ -234,23 +246,21 @@ main{
 	padding-top:2rem;
 	border-radius:1rem;
 	margin:auto;
-	
+	justify-content: center;
     text-align: center;
 }
 .formulario__h1{
     color:rgb(2, 29, 83);
-    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-family: "Lucida Console", "Courier New", monospace;
     animation: fadeInTopLeft;
     animation-duration: 2s;
-
+    
 
 }
 .formulario__titulo{
-	width:10rem;
-	font-weight:bold;
-	display:inline-block;
-    font-size: 1.5rem;
-     
+	width:50%;
+	 
+    
     
 }
 
@@ -258,27 +268,31 @@ main{
 
 
 {
-	width:20rem;
+	width:75%;
 	padding:1px;
-	border:1px solid #535353;
+	border:2px solid black;
 	border-radius:3px;
 	background-color:#f6f6f6;
 	display:inline-block;
-    margin: 0.5rem;
+    margin: 0.3rem;
+    justify-content: center;
+    
+    
     
     
 }
 
 
 .formulario__boton{
-	width:100%;
+	width:80%;
 	padding:8px 16px;
-	margin-top:5px;
+	margin:5px;
 	border:1px solid #000;
 	border-radius:5px;
-	display:block;
+	justify-content: center;
 	color:#fff;
 	background-color:rgb(2, 29, 83);
+    
 } 
 
 
@@ -291,47 +305,64 @@ main{
 
 
 .formulario__texto{
-	width:100%;
-	height:100px;
-	border:1px solid #535353;
+	width:95%;
+	height:10rem;
+	border:2px solid black;
 	border-radius:3px;
-	background-color:#f6f6f6;			
-	margin:8px 0;
+	background-color:#f6f6f6;
+    			
+	
 	resize:none;
-	display:block;
+	
+    justify-content: center;
 }
 .formulario__titulo--newsletter{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: left;
     margin: 1rem;
-	font-weight:bold;
+    font-weight: bold;
+	font-family: "Lucida Console", "Courier New", monospace;
 	display:inline-block;
-    font-size: 1.5rem;
+    
+   
+    
+
 }
 .formulario__radio--gnc,.formulario__radio--0km{
     font-size: 1.3rem;
-    padding: 5px;
+    font-weight: bold;
     color: rgb(2, 29, 83);
-    
+    font-family: "Lucida Console", "Courier New", monospace;
 
 }
 
 .formulario__radio{
     font-size: 1.5rem;
-    width: 30rem;
-    display: flex;
+    
+    
     
 }
 .formulario__select{
-    border:1px solid #535353;
+    border:2px solid black;
     border-radius:3px;  
+    margin: 1rem;
+    justify-content: center;
 }
-.contacto, .cotizacion{
+.cotizacion  {
     width: 90%;
-    background: url("../img/FOTO2.jpg") no-repeat fixed ;
+    background: url("../img/seguro.jpeg") center fixed ;
     background-size: cover;
     margin: auto;
 }
+.contacto{
+    width: 90%;
+    background: url("../img/FOTO2.jpg") center fixed ;
+    background-size: cover;
+    margin: auto;
+}
+
+
+
 /*Nosotros*/
 .parrafo{
     color: #fff;
